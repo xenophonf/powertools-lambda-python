@@ -18,6 +18,21 @@ from .cloud_watch_alarm_event import (
 from .cloud_watch_custom_widget_event import CloudWatchDashboardCustomWidgetEvent
 from .cloud_watch_logs_event import CloudWatchLogsEvent
 from .cloudformation_custom_resource_event import CloudFormationCustomResourceEvent
+from .cloudfront_event import (
+    CloudFrontConfiguration,
+    CloudFrontOriginRequest,
+    CloudFrontOriginRequestEvent,
+    CloudFrontOriginRequestRecord,
+    CloudFrontOriginResponse,
+    CloudFrontOriginResponseEvent,
+    CloudFrontOriginResponseRecord,
+    CloudFrontViewerRequest,
+    CloudFrontViewerRequestEvent,
+    CloudFrontViewerRequestRecord,
+    CloudFrontViewerResponse,
+    CloudFrontViewerResponseEvent,
+    CloudFrontViewerResponseRecord,
+)
 from .code_deploy_lifecycle_hook_event import (
     CodeDeployLifecycleHookEvent,
 )
@@ -54,6 +69,19 @@ __all__ = [
     "AppSyncResolverEvent",
     "ALBEvent",
     "BedrockAgentEvent",
+    "CloudFrontConfiguration",
+    "CloudFrontOriginRequest",
+    "CloudFrontOriginRequestEvent",
+    "CloudFrontOriginRequestRecord",
+    "CloudFrontOriginResponse",
+    "CloudFrontOriginResponseEvent",
+    "CloudFrontOriginResponseRecord",
+    "CloudFrontViewerRequest",
+    "CloudFrontViewerRequestEvent",
+    "CloudFrontViewerRequestRecord",
+    "CloudFrontViewerResponse",
+    "CloudFrontViewerResponseEvent",
+    "CloudFrontViewerResponseRecord",
     "CloudWatchAlarmData",
     "CloudWatchAlarmEvent",
     "CloudWatchAlarmMetric",
